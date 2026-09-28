@@ -12,3 +12,4 @@ Console.WriteLine($"Teкст: {text}");
 byte[] textBytes = Encoding.UTF8.GetBytes(text);
 Console.WriteLine("Бaйты текста UTF-8:");
 Console.WriteLine(BitConverter.ToString(textBytes));
+//
